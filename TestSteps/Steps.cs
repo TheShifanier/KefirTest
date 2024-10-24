@@ -14,11 +14,6 @@ namespace Assets.UiTest.TestSteps
             return new WaitStartLoadingStep();
         }
 
-        public IUiTestStepBase ExampleStep()
-        {
-            return new ExampleStep();
-        }
-
         public IUiTestStepBase FindAndCutAllTreesStep()
         {
             return new FindAndCutAllTreesStep();

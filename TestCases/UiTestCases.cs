@@ -18,7 +18,6 @@ namespace Assets.UiTest.Runner
             _tests.Add(6, new StackingLimitsTestCase());
             _tests.Add(7, new SawmillProgressTestCase());
             _tests.Add(8, new SawmillSkipProgressTestCase()); // Баг KEFIR-5, KEFIR-6
-            _tests.Add(9, new DeleteCase());
         }
 
         public IUiTestCase GetTestCase(int test)
